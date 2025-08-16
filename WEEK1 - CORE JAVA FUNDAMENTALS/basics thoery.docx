@@ -1,0 +1,14 @@
+Java program execution follows this below simple flow:
+
+
+1 Write code in a file like HelloWorld.java.
+2 The Java Compiler "javac" compiles it into bytecode "HelloWorld.class".
+3 The JVM (Java Virtual Machine) reads the .class file and interprets the bytecode.
+4 JVM converts bytecode to machine readable code i.e. "binary" (001001010) and then execute the program.
+
+![alt text](image.png)
+
+** Steps to Implement a Java Program**
+Compilation-> (source code(.java) → bytecode (.class)) via JAVAC(java compiler)
+
+Execution-> (bytecode → machine code(010011)) via JVM(java virtual machine)
